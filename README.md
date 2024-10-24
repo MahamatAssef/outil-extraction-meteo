@@ -14,9 +14,6 @@ ra les informations extraites dans un fichier texte , chaque enregistrement deva
 ### Version 1.1 
 - Ajout de la gestion des erreurs pour la récupération des données .
 - Amélioration du format d'affichage des informations dans 'meteo.txt' .
-
-
-
  
 - pour récuperer la météo d'une ville spécifique :
 ```bash
@@ -35,4 +32,12 @@ crontab -e
 - Ajouter une ligne pour exécuter le script toutes les heures :
 ```bash
 0**** /chemin/vers/mon/script/Extracteur_Météo.sh
+
+###Version 1.3
+
+- Ajout d'une fonctionnalité pour archiver les données météo collectées dans un fichier différent chaque jour (ex : meteo_YYYYMMDD.txt).
+- Chaque exécution du script ajoute les nouvelles informations au fichier correspondant à la date du jour.
+- Structure des fichiers :
+    meteo.txt : Contient les données météo actuelles et les prévisions.
+    meteo_YYYYMMDD.txt : Archive quotidienne des données météo pour un historique.
  
