@@ -2,17 +2,22 @@
 
 # Vérifier si un argument de ville est passé 
 if [ -z "$1" ]; then
-    echo "Erreur veuillez fournir une ville en argument ."
-    exit 1
+    VILLE="Toulouse"
+else
+    VILLE="$1"
 fi
 
-VILLE="$1"
+
 FICHIER_METEO="meteo.txt"
-DATE=$(date +"%Y-%m-%d - %H:%M"
+DATE=$(date +"%Y-%m-%d - %H:%M")
+
+# Définir le fichier d'historique basé sur la date actuelle
+FICHIER_HISTORIQUE="meteo_$(date +"%Y%m%d").txt"
+
 # Utiliser curl pour récupérer les données méteo
 # Récupération des données brutes  depuis wttr.in
 
-METEO=$(curl -s "wttr.in/$ville?format=%C+%t+%f") # %C pour météo et %t pour température
+METEO=$(curl -s "wttr.in/$VILLE?format=%C+%t+%f") # %C pour météo et %t pour température
 
 
 # Vérifier si la ville existe dans wttr.in
@@ -36,6 +41,8 @@ fi
 # Enregistrer  les informations dans le fichier meteo.txt
 echo "$DATE - $VILLE : $TEMP_ACTUELLE - $PREVISION_LENDEMAIN" >> $FICHIER_METEO
 
-# Affichage d'un message de confirmation 
-echo "Données météo pour $VILLE enregistrées dans meteo.txt. allez-y dans le fichier pour les voir ."
+# Enregistrer les informations dans le fichier historique
+echo "$DATE - $VILLE : $TEMP_ACTUELLE - $PREVISION_LENDEMAIN" >> $FICHIER_HISTORIQUE
 
+# Affichage d'un message de confirmation 
+echo "Données météo pour $VILLE enregistrées dans $FICHIER_METEO et $FICHIER_HISTORIQUE."
