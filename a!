@@ -1,0 +1,65 @@
+[33mcommit b850444097750f02efa0482e800e2e5aff62cc5c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: ASSEF <mhtzeneassef@gmail.com>
+Date:   Thu Oct 31 17:14:42 2024 +0100
+
+    Sauvegarde modifications pour la v1.0
+
+[33mcommit c93ca4a1705edc0db4548c1e3cb8871b3cdf5a41[m
+Author: ASSEF <mhtzeneassef@gmail.com>
+Date:   Tue Oct 29 20:06:43 2024 +0100
+
+    Mise à jour du script
+
+[33mcommit c250ed0015d24617cb72bbcf56bb43460f357f72[m
+Author: ASSEF <mhtzeneassef@gmail.com>
+Date:   Sat Oct 19 23:23:05 2024 +0200
+
+    suppression du script Extracteur_Météo.shes qui servait a rien
+
+[33mcommit 90515ccb28c747c24536d78ed0d3348bf4ce6064[m
+Author: ASSEF <mhtzeneassef@gmail.com>
+Date:   Fri Oct 18 04:13:33 2024 +0200
+
+    Mise à jour du script
+
+[33mcommit a8fcba2d30fd2268d14f9d13868466bb52427ef9[m
+Author: ASSEF <mhtzeneassef@gmail.com>
+Date:   Sun Oct 13 02:48:34 2024 +0200
+
+    Mise à jour du script pour differents cas
+
+[33mcommit 007928cdaf82283093b8b3f1b6daacfec7d53069[m
+Author: ASSEF <mhtzeneassef@gmail.com>
+Date:   Sun Oct 13 01:34:11 2024 +0200
+
+    Mise à jour du script pour gérer les villes inexistantes
+
+[33mcommit bb25c89bcdb0b237d3fe54ec68b15cdd18b7aceb[m
+Author: ASSEF <mhtzeneassef@gmail.com>
+Date:   Sun Oct 13 00:59:19 2024 +0200
+
+    Mise à jour du script pour gérer les villes inexistantes
+
+[33mcommit 40a580591c74c0f753fd88a7048f28767b4443e2[m
+Author: ASSEF <mhtzeneassef@gmail.com>
+Date:   Sun Oct 13 00:53:43 2024 +0200
+
+    Mise à jour du script pour gérer les villes inexistantes
+
+[33mcommit b23f8308bb9fc685d45b8a3c5ae992118abf7272[m[33m ([m[1;33mtag: [m[1;33mv1.0[m[33m)[m
+Author: ASSEF <mhtzeneassef@gmail.com>
+Date:   Sun Oct 13 00:10:17 2024 +0200
+
+    Mise à jour de README.md pour inclure les détails des modifications
+
+[33mcommit cbba2a38555937b12a4857bd23cb1b0dda800842[m
+Author: ASSEF <mhtzeneassef@gmail.com>
+Date:   Sat Oct 12 23:48:06 2024 +0200
+
+     J'ai ajouté de la gestion des erreurs et débogage du script
+
+[33mcommit 85e58757f3ffa69560a7db09816ca1d1a685b88c[m
+Author: ASSEF <mhtzeneassef@gmail.com>
+Date:   Fri Oct 11 19:37:00 2024 +0200
+
+    Notre premier commit : ajout du script d'extraction météo et du README
