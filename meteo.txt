@@ -82,3 +82,6 @@
 2024-10-28-14:10 - London : 13°C - 12°C
 2024-10-28-14:10 - London : 13°C - 12°C
 2024-10-28-14:18 - Toulouse : 16°C - 16°C
+2024-10-30-23:23 - Paris : Température actuelle: 13°C, Prévision demain: 13°C, Vitesse du vent: 8 km/h, Humidité: 94%, Visibilité: 
+2024-10-30-23:27 - Paris : Température actuelle: 13°C°C, Prévision demain: 13°C°C, Vitesse du vent: 8 km/h, Humidité: 94%, Visibilité: Non disponible
+2024-10-30-23:29 - Paris : Température actuelle: 13°C, Prévision demain: 13°C, Vitesse du vent: 8 km/h, Humidité: 94%, Visibilité: Non disponible
